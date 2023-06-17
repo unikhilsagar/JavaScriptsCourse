@@ -3,6 +3,19 @@ var a = {
     name:'nikhil',
     skill:'front'
 }
+//shallow copy code example
+
+var b = a
+
+console.log("before changing ",a === b)
+
+b.name = "sai charan"
+b.skill = "testing"
+
+//logging result in console
+console.log("after changing", a === b)
+
+console.log("a=",a,"b=",b)
 
 //deep copy example
 var b = {...a};
@@ -10,7 +23,7 @@ console.log(a===b)
 b.name = 'sai charan'
 b.skill = 'testing'
 
-console.log(a===b)
+var b = a
 
 console.log('a = ',a,'b=',b)
 
@@ -23,3 +36,4 @@ ingredients_list_deepcopy[1].list = ["rice flour", "water"];
 // The 'list' property does not change in ingredients_list.
 console.log(ingredients_list[1].list);
 // Array(3) [ "eggs", "flour", "water" ]
+
