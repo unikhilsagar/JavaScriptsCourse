@@ -12,6 +12,7 @@ console.log("before changing ",a === b)
 b.name = "sai charan"
 b.skill = "testing"
 
+//logging result in console
 console.log("after changing", a === b)
 
 console.log("a=",a,"b=",b)
