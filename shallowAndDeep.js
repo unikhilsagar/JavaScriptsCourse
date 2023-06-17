@@ -3,11 +3,16 @@ var a = {
     name:'nikhil',
     skill:'front'
 }
-var b = {...a};
-console.log(a===b)
-b.name = 'sai charan'
-b.skill = 'testing'
+//shallow copy code example
 
-console.log(a===b)
+var b = a
 
-console.log('a = ',a,'b=',b)
+console.log("before changing ",a === b)
+
+b.name = "sai charan"
+b.skill = "testing"
+
+//logging result in console
+console.log("after changing", a === b)
+
+console.log("a=",a,"b=",b)
