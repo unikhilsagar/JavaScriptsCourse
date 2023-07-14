@@ -7,6 +7,7 @@ function* generators(){
 
 for(let i in generators()){
     console.log(i)
+    console.log(i)
 }
 let gen = generators()
 console.log(gen.next())
