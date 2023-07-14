@@ -1,11 +1,11 @@
-// function x(){
-//     let a = 10
-//     return function y (){
-//         console.log(a)
-//     }
-// }
-// let b = x();
-// b();
+function x(){
+    let a = 10
+    return function y (){
+        console.log(a)
+    }
+}
+let b = x();
+b();
 
 
 function a(){
