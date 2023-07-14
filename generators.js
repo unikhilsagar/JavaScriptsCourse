@@ -1,8 +1,9 @@
 function* generators(){
     yield 1
     yield 2
-    return 3
-    yield 4
+    yield 3
+    return 4
+    yield 5
 }
 
 for(let i in generators()){
