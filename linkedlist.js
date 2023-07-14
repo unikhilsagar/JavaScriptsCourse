@@ -33,6 +33,10 @@ class LinkedList {
         this.size++
     }
 
+    sayHello(){
+        console.log('hello')
+    }
+
     append(element){
         const node = new Node(element)
         if(this.isEmpty()){
