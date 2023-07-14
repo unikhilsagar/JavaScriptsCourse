@@ -1,6 +1,7 @@
 function* generators(){
     yield 1
     yield 2
+    yield 25
     return 3
     yield 4
 }
