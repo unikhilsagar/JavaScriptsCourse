@@ -20,7 +20,7 @@ class LinkedList {
     getSize(){
         return this.size
     }
-
+//Hi nikhil....
     prepend(element){
         const node = new Node(element)
         if(this.isEmpty()){
