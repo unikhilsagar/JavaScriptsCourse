@@ -5,6 +5,7 @@ function x(){
     }
 }
 let b = x();
+let c = x()
 b();
 
 
